@@ -1,4 +1,4 @@
-# Shibu-makes-Games-too
+# Shibu makes Games too
 *A play visibly represents pure existing.*
 
 <img src="https://user-images.githubusercontent.com/44550746/117298264-c943f900-ae94-11eb-8b82-b35e9741abfa.gif" height="200px">
