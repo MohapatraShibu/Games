@@ -1,7 +1,7 @@
 # Shibu-makes-Games-too
 *A play visibly represents pure existing.*
 
-<img src="https://user-images.githubusercontent.com/44550746/117298264-c943f900-ae94-11eb-8b82-b35e9741abfa.gif" height="150px">
+<img src="https://user-images.githubusercontent.com/44550746/117298264-c943f900-ae94-11eb-8b82-b35e9741abfa.gif" height="200px">
 
 <p>A repository of basic or retro games I make.</p>
 <p>All the stuff will be super easy to understand.</p>
