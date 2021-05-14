@@ -11,6 +11,7 @@
 
 * VSCode
 * Python IDE
+* Google Colab
 <hr>
 
 ## Get in Touch<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Handshake.gif" height="28px">
