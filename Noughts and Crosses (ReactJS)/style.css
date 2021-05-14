@@ -1,0 +1,123 @@
+body {
+  background-color: #E6E6E6;
+}
+
+body .tic-tac-toe--field {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  border-radius: 6px;
+  width: 300px;
+  height: 300px;
+  padding: 5px;
+}
+
+body .tic-tac-toe--field .tic-tac-toe--end-game-popover {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 6px;
+  -webkit-transition: visibility 0s 0.3s, opacity 0.3s linear;
+  transition: visibility 0s 0.3s, opacity 0.3s linear;
+  opacity: 1;
+  visibility: visible;
+}
+
+body .tic-tac-toe--field .tic-tac-toe--end-game-popover.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+body .tic-tac-toe--field .tic-tac-toe--end-game-popover .tic-tac-toe--new-game-button {
+  height: 20px;
+  background-color: #9A8297;
+  border-radius: 20px;
+  color: white;
+  margin: auto;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+body .tic-tac-toe--field .tic-tac-toe--end-game-popover .tic-tac-toe--new-game-button:hover {
+  background-color: #D0782A;
+}
+
+body .tic-tac-toe--field .tic-tac-toe--end-game-popover h1.tic-tac-toe--title-label {
+  color: #D0782A;
+  margin: 30px auto;
+  text-align: center;
+}
+
+body .tic-tac-toe--field .tic-tac-toe--cells-matrix {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body .tic-tac-toe--field .tic-tac-toe--cells-matrix .tic-tac-toe-cell {
+  background-color: #9A8297;
+  margin: 5px;
+  width: 90px;
+  height: 90px;
+  border-radius: 6px;
+  cursor: pointer;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  position: relative;
+}
+
+body .tic-tac-toe--field .tic-tac-toe--cells-matrix .tic-tac-toe-cell:hover {
+  background-color: #D0782A;
+}
+
+body .tic-tac-toe--field .tic-tac-toe--cells-matrix .tic-tac-toe-cell.xSymbol:before, body .tic-tac-toe--field .tic-tac-toe--cells-matrix .tic-tac-toe-cell.xSymbol:after {
+  position: absolute;
+  width: 6px;
+  height: 50px;
+  background-color: white;
+  display: block;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 3px;
+}
+
+body .tic-tac-toe--field .tic-tac-toe--cells-matrix .tic-tac-toe-cell.xSymbol:before {
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+body .tic-tac-toe--field .tic-tac-toe--cells-matrix .tic-tac-toe-cell.xSymbol:after {
+  -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+body .tic-tac-toe--field .tic-tac-toe--cells-matrix .tic-tac-toe-cell.oSymbol:after {
+  position: absolute;
+  display: block;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  border: solid 6px white;
+  width: 44px;
+  height: 44px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
