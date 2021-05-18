@@ -16,7 +16,7 @@
 
 ## Get in Touch<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Handshake.gif" height="28px">
 
-<a href="https://www.linkedin.com/in/shibu-mohapatra-252a1516b/">
+<a href="https://www.linkedin.com/">
     <img align="left" alt="Shibu Mohapatra | Linkedin" width="24px" src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Linkedin.svg" />
  </a>
  <a href="https://www.instagram.com/m.shibu.29/">
